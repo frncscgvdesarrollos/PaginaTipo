@@ -1,9 +1,7 @@
 const menu = document.querySelector(".menu");
-const menubarLinkP = document.querySelector(".menubar-link-p");
+const menubarul = document.querySelector(".menubar-ul");
+const lip = document.querySelectorAll(".menu-bar-li-p")
 
     menu.addEventListener("click", function() 
-    { 
-        menubarLinkP.classList.toggle("displaynone")
-
-    });
-
+    { menubarul.classList.toggle("width");
+});
