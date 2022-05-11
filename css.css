@@ -5,7 +5,7 @@
     box-sizing:border-box;
 }
 body{
-    background-color: rgb(255, 252, 224);
+    background-color: rgb(252, 252, 252);
 }
 .contenedor-total{
     display: flex;
@@ -14,7 +14,7 @@ body{
 .contenedor-menubar {
     display:flex;
     flex-flow: column wrap;
-    background-color: rgb(252, 245, 186);
+    background-color: rgb(64, 69, 88);
     animation-name: icono;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -57,7 +57,7 @@ body{
 
 
 .contenedor-pagina{
-    background-color: rgb(252, 251, 210);
+    background-color: rgb(88, 98, 121);
     z-index: 10;
 }
 
@@ -67,10 +67,10 @@ body{
     height: 100px;
     display: flex;
     flex-flow: column row;
-    background-color: rgb(179, 107, 107);
+    background-color: rgb(91, 93, 117);
 }
 .header-h1 {
-    text-shadow: 0px 1px 10px rgb(150, 32, 32);
+    text-shadow: 0px 1px 10px rgb(229, 233, 238);
     padding-left: 30px;
     padding-top: 30px;
     width: 60%;
@@ -82,29 +82,24 @@ body{
     display: flex;
     flex-flow: column wrap;
 }
-
-
 .main {
     display: flex;
     flex-flow: column wrap;
 }
-
-
 .main-principal {
-    background-color: rgb(239, 248, 185);
     animation-name: portafolio;
     animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 .principal-h2{
-    text-shadow: 0px 1px 15px orange;
+    text-shadow: 0px 1px 15px rgb(225, 230, 243);
     padding-top: 15px;
     font-size: 50px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .principal-p{
-    font-size: 25px;
+    font-size: 18px;
     height: 100px;
     text-align: left;
     padding: 10px 70px 6px;
@@ -112,10 +107,9 @@ body{
 .contenedor-article{
     margin-top: 20px;
     text-align: center;
-    height: 100vh;
     width:80%;
     display: grid;
-    grid-template-columns: 1fr 1fr;   
+    grid-template-columns: 1fr 1fr;
 }
 .article-imagen {
     width: 200px;
@@ -144,30 +138,33 @@ body{
     height: 75vh;
     width: 20%;
     text-align: center;
-    background-color: rgb(247, 195, 128);
+
 }
 .article-aside{
     margin-top: auto;
     height: 34vh;
     width: 100%;
 }
+
 @keyframes icono {
-    0%{color: rgb(1, 107, 139);}
-    20%{color: rgb(1, 45, 139);}
-    40%{color: rgb(88, 1, 139);}
-    60%{color: rgb(72, 1, 139);}
-    80%{color: rgb(139, 1, 58);}
-    100%{color: rgb(139, 1, 1);}
+    0%{color: rgb(173, 160, 248);}
+    20%{color: rgb(109, 154, 250);}
+    40%{color: rgb(86, 137, 248);}
+    60%{color: rgb(45, 115, 245);}
+    80%{color: rgb(69, 96, 248);}
+    100%{color: rgb(255, 255, 255);}
 }
+
 @keyframes portafolio {
     0% {
-        background: rgb(245, 245, 132)
+        background: rgb(105, 108, 156);
     }
     50% {
 
 
     }
     100% {
+        background: rgb(105, 108, 156);
     }
 }
 
