@@ -176,7 +176,7 @@ body{
         box-sizing: border-box;
     }
     body{
-        background-color: rgb(255, 252, 224);
+        background-color: rgb(252, 252, 252);
         
     }
     .contenedor-total{
@@ -186,7 +186,7 @@ body{
     .contenedor-menubar {
         display:flex;
         flex-flow: column wrap;
-        background: linear-gradient(to right,rgb(250, 242, 174),rgb(248, 248, 147));
+        background-color: rgb(64, 69, 88);
         animation-name: icono;
         animation-duration: 2s;
         animation-iteration-count: infinite;
@@ -201,14 +201,13 @@ body{
         flex-flow: column wrap;
         width:40px;
         transition: all 3s;
-        background-color: rgb(252, 245, 186);
+
     }
     .menubar-link-i{
         transform: translateX(-10px);
     }
     .width{
         width: 130px;
-        background: linear-gradient(to right,rgb(252, 245, 186),rgb(245, 245, 132))
     }
     .menu-bar-li {
         margin-top: 130px;
@@ -231,7 +230,7 @@ body{
         z-index: 1;
     }
     .contenedor-pagina{
-        background-color: rgb(252, 251, 210);
+        background-color: rgb(88, 98, 121);
         z-index: 10;
     }
     .header {
@@ -239,10 +238,10 @@ body{
         height: 100px;
         display: flex;
         flex-flow: column row;
-        background-color: rgb(179, 107, 107);
+        background-color: rgb(91, 93, 117);
     }
     .header-h1 {
-        text-shadow: 0px 1px 10px rgb(150, 32, 32);
+        text-shadow: 0px 1px 15px rgb(225, 230, 243);
         padding-left: 30px;
         padding-top: 30px;
         width: 60%;
@@ -271,7 +270,7 @@ body{
         height: 160px;
     }
     .principal-h2{
-        text-shadow: 0px 1px 15px orange;
+        text-shadow: 0px 1px 15px rgb(225, 230, 243);
         padding-top: 15px;
         font-size: 20px;
         text-align: center;
@@ -320,7 +319,6 @@ body{
         height: 75vh;
         width: 100%;
         text-align: center;
-        background-color: rgb(247, 195, 128);
         font-size: 10px;
     }
     .article-aside{
@@ -328,26 +326,24 @@ body{
         height: 34vh;
         width: 100%;
     }
-    
     @keyframes icono {
-        0%{color: rgb(1, 107, 139);}
-        20%{color: rgb(1, 45, 139);}
-        40%{color: rgb(88, 1, 139);}
-        60%{color: rgb(72, 1, 139);}
-        80%{color: rgb(139, 1, 58);}
-        100%{color: rgb(139, 1, 1);}
+        0%{color: rgb(173, 160, 248);}
+        20%{color: rgb(109, 154, 250);}
+        40%{color: rgb(86, 137, 248);}
+        60%{color: rgb(45, 115, 245);}
+        80%{color: rgb(69, 96, 248);}
+        100%{color: rgb(255, 255, 255);}
     }
-    
     @keyframes portafolio {
         0% {
-            background: rgb(245, 245, 132)
+            background: rgb(105, 108, 156);
         }
         50% {
     
     
         }
         100% {
+            background: rgb(105, 108, 156);
         }
     }
-
 }
